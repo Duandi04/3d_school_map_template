@@ -1,73 +1,73 @@
 # 3D School Map Template
 
-Template peta sekolah 3D interaktif yang dibangun menggunakan **Three.js** dan **ES Modules**. Proyek ini menyediakan visualisasi kampus yang modern dengan fitur interaksi mendetail untuk setiap bangunan.
+An interactive 3D school map template built using **Three.js** and **ES Modules**. This project provides a modern campus visualization with detailed interaction features for each building.
 
-## 🚀 Fitur Utama
+## 🚀 Key Features
 
-- **Visualisasi 3D Interaktif**: Navigasi bebas menggunakan mouse/touch (OrbitControls).
-- **Detail Bangunan**: Panel informasi dinamis yang muncul saat kursor diarahkan ke bangunan tertentu.
-- **Kontrol Penjelajahan**:
-  - Reset Kamera untuk kembali ke pandangan utama.
-  - Mode Auto-Rotate untuk presentasi otomatis.
-- **Opsi Tampilan**:
-  - Mode Wireframe untuk melihat struktur geometri.
-  - Toggle Bayangan (Shadows) untuk performa atau estetika.
-- **Responsif**: Desain UI yang menyesuaikan dengan ukuran layar (Desktop & Mobile).
-- **Tanpa Build Tools**: Menggunakan ES Modules langsung dari CDN (Unpkg), tidak memerlukan `npm install` atau proses kompilasi.
+- **Interactive 3D Visualization**: Free navigation using mouse/touch controls (OrbitControls).
+- **Building Details**: Dynamic info panels that appear when hovering over specific buildings.
+- **Exploration Controls**:
+  - Reset Camera to return to the home view.
+  - Auto-Rotate mode for automatic presentations.
+- **Display Options**:
+  - Wireframe Mode to view the geometric structure.
+  - Toggle Shadows for performance or aesthetic preferences.
+- **Responsive Design**: UI that adapts to various screen sizes (Desktop & Mobile).
+- **No Build Tools Required**: Utilizes ES Modules directly from CDN (Unpkg), requiring no `npm install` or compilation steps.
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ Technologies Used
 
-- **Three.js (r158)**: Library utama untuk rendering 3D.
-- **Vanilla JavaScript (ES Modules)**: Logika aplikasi.
-- **CSS3**: Desain antarmuka (UI) dengan efek blur (backdrop-filter) dan animasi modern.
-- **HTML5**: Struktur halaman.
+- **Three.js (r158)**: Core library for 3D rendering.
+- **Vanilla JavaScript (ES Modules)**: Application logic.
+- **CSS3**: Modern UI design featuring glassmorphism (backdrop-filter) and smooth animations.
+- **HTML5**: Page structure.
 
-## 📋 Daftar Bangunan dalam Template
+## 📋 Included Buildings/Complexes
 
-1. **Main Administrative Complex**: Pusat administrasi dan resepsionis.
-2. **Digital Learning Library**: Perpustakaan dengan fasilitas lab komputer.
-3. **Athletic & Wellness Center**: Kompleks olahraga dan kolam renang.
-4. **STEM Research Center**: Laboratorium sains tingkat lanjut.
-5. **Primary Academic Hall**: Gedung kelas utama.
-6. **Creative Arts Wing**: Area seni, musik, dan drama.
-7. **Community Dining Hall**: Kantin dan area sosial.
-8. **Performing Arts Theater**: Teater pertunjukan profesional.
+1. **Main Administrative Complex**: Central hub for administration and reception.
+2. **Digital Learning Library**: Resource center with computer lab facilities.
+3. **Athletic & Wellness Center**: Sports complex and swimming pool.
+4. **STEM Research Center**: Advanced science research laboratories.
+5. **Primary Academic Hall**: Main educational building.
+6. **Creative Arts Wing**: Dedicated area for arts, music, and drama.
+7. **Community Dining Hall**: Cafeteria and social space.
+8. **Performing Arts Theater**: Professional performance venue.
 
-## 📖 Cara Penggunaan
+## 📖 How to Use
 
-### Menjalankan Secara Lokal
+### Running Locally
 
-Karena proyek ini menggunakan ES Modules, Anda perlu menjalankannya melalui web server (bukan hanya membuka file `.html` langsung di browser).
+Since this project uses ES Modules, you must run it through a web server (rather than opening the `.html` file directly in a browser).
 
-1. **Menggunakan VS Code (Live Server)**:
-   - Instal ekstensi `Live Server`.
-   - Klik kanan pada `index.html` dan pilih **Open with Live Server**.
+1. **Using VS Code (Live Server)**:
+   - Install the `Live Server` extension.
+   - Right-click `index.html` and select **Open with Live Server**.
 
-2. **Menggunakan Python**:
+2. **Using Python**:
    ```bash
    python -m http.server 8000
    ```
-   Buka `http://localhost:8000` di browser Anda.
+   Open `http://localhost:8000` in your browser.
 
-3. **Menggunakan Node.js (serve)**:
+3. **Using Node.js (serve)**:
    ```bash
    npx serve .
    ```
 
-### Navigasi
-- **Klik Kiri + Seret**: Memutar kamera (Orbit).
-- **Scroll**: Perbesar/Perkecil (Zoom).
-- **Klik Kanan + Seret**: Menggeser posisi kamera (Pan).
-- **Hover Bangunan**: Menampilkan informasi detail bangunan di panel samping.
+### Navigation Controls
+- **Left Click + Drag**: Rotate camera (Orbit).
+- **Scroll**: Zoom In/Out.
+- **Right Click + Drag**: Move camera position (Pan).
+- **Hover Building**: Display detailed information in the side panel.
 
-## 📁 Struktur Proyek
+## 📁 Project Structure
 
 ```text
 3d_school_map_template/
-├── index.html    # Berisi HTML, CSS, dan Logika Three.js (Single File)
-└── README.md     # Dokumentasi proyek
+├── index.html    # Contains HTML, CSS, and Three.js Logic (Single File)
+└── README.md     # Project documentation
 ```
 
-## 📄 Lisensi
+## 📄 License
 
-Proyek ini dilisensikan di bawah [MIT License](LICENSE). Anda bebas untuk memodifikasi dan menggunakannya untuk keperluan pribadi maupun komersial.
+This project is licensed under the [MIT License](LICENSE). You are free to modify and use it for personal or commercial purposes.
